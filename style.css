@@ -27,7 +27,7 @@ body {
 }
 
 h1 {
-  color: var(--deep-space-sparkle);
+  color: var(--auburn);
   padding: 15px;
   text-align: center;
   font-size: 2.5em;
@@ -36,6 +36,15 @@ h1 {
 h2 {
   font-size: 1.8em;
   padding: 12px;
+  color: var(--indian-yellow);
+}
+
+strong {
+  color: var(--deep-space-sparkle);
+}
+
+a {
+  text-decoration: none;
 }
 
 #profilePicture {
