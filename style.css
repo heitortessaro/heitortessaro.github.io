@@ -49,13 +49,14 @@ p {
   line-height: 1.5;
 }
 
-strong {
+strong,
+a {
   color: var(--deep-space-sparkle);
 }
 
 a {
   text-decoration: none;
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 #profilePicture {
