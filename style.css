@@ -29,10 +29,12 @@ body {
 
 h1 {
   color: var(--auburn);
-  padding: 25px;
+  padding: 35px;
   text-align: center;
   font-size: 2.5em;
   font-weight: 600;
+  /* float: left; */
+  /* vertical-align: middle; */
 }
 
 h2 {
@@ -61,6 +63,10 @@ a {
 
 #profilePicture {
   border-radius: 50% 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
 }
 
 .navigation {
