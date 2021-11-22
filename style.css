@@ -45,10 +45,17 @@ strong {
 
 a {
   text-decoration: none;
+  font-size: 1.2em;
 }
 
 #profilePicture {
   border-radius: 50% 25%;
+}
+
+.navigation {
+  /* width: 60%; */
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .navigation,
@@ -59,7 +66,7 @@ a {
 .navigation a {
   float: left;
   display: block;
-  /* color: #f2f2f2; */
+  width: 33%;
   text-align: center;
   padding: 14px 16px;
 }
