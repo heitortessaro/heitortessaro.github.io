@@ -51,7 +51,8 @@ a {
   border-radius: 50% 25%;
 }
 
-.navigation {
+.navigation,
+.contactLinks {
   overflow: hidden;
 }
 
@@ -61,5 +62,12 @@ a {
   /* color: #f2f2f2; */
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
+}
+
+.contactLinks a {
+  float: left;
+  display: block;
+  width: 25%;
+  padding: 10px;
+  text-align: center;
 }
