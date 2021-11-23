@@ -84,7 +84,8 @@ a {
 }
 
 .navigation,
-.contactLinks {
+.contactLinks,
+.habilities {
   overflow: hidden;
 }
 
@@ -102,4 +103,23 @@ a {
   width: 25%;
   padding: 10px;
   text-align: center;
+}
+
+.habilities div {
+  float: left;
+  display: block;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+/* .listHabilities {
+  line-height: 25;
+  display: inline-block;
+  vertical-align: middle;
+} */
+
+.icon {
+  padding: 2px;
+  height: 1em;
 }
