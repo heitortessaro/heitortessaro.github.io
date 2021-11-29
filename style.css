@@ -30,11 +30,64 @@ body {
 
 header {
   position: fixed;
-  background-color: white;
+  background-color: chocolate;
+  border-bottom: 3px solid black;
   width: 100%;
   top: 0;
-  /* margin: 0; */
 }
+
+h1 {
+  color: white;
+  padding: 30px;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 600;
+  border-bottom: 3px solid black;
+}
+
+nav {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+nav a {
+  float:inline-start;
+  padding: 5px 15px;
+  color: black;
+}
+
+nav a:hover{
+  background-color: black;
+  color: white;
+}
+
+/* .navigation,
+.contactLinks {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.navigation,
+.contactLinks,
+.habilities {
+  overflow: hidden;
+}
+
+.navigation a {
+  float: left;
+  display: block;
+  width: 25%;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.contactLinks a {
+  float: left;
+  display: block;
+  width: 25%;
+  padding: 10px;
+  text-align: center;
+} */
 
 main{
 max-width: 1200px;
@@ -42,15 +95,7 @@ margin: 200px  auto 0 auto;
 /* margin-top: 190px; */
 }
 
-h1 {
-  color: var(--auburn);
-  padding: 35px;
-  text-align: center;
-  font-size: 2.5em;
-  font-weight: 600;
-  /* float: left; */
-  /* vertical-align: middle; */
-}
+
 
 h2 {
   text-align: center;
@@ -95,34 +140,6 @@ a {
   margin-bottom: 25px;
 }
 
-.navigation,
-.contactLinks {
-  /* width: 60%; */
-  margin-left: 20%;
-  margin-right: 20%;
-}
-
-.navigation,
-.contactLinks,
-.habilities {
-  overflow: hidden;
-}
-
-.navigation a {
-  float: left;
-  display: block;
-  width: 25%;
-  text-align: center;
-  padding: 14px 16px;
-}
-
-.contactLinks a {
-  float: left;
-  display: block;
-  width: 25%;
-  padding: 10px;
-  text-align: center;
-}
 
 .habilities div {
   float: left;
