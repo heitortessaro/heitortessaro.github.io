@@ -39,6 +39,7 @@ header {
   border-bottom: 3px solid black;
   width: 100%;
   top: 0;
+  z-index: 2;
 }
 
 h1 {
@@ -94,26 +95,31 @@ nav a:hover{
   text-align: center;
 } */
 
+main{
+  max-width: 1200px;
+  margin: 200px  auto 0 auto;
+  position: relative;
+  z-index: 1;
+  /* height: 1100px; */
+  /* margin-top: 190px; */
+  }
+  
+
 aside {
   display: block;
   float: left;
-  height: 1000px; 
-  max-width: 20%;
-  min-width: 270px;
+  position: absolute;
+  height: 100%; 
+  max-width: 25%;
   padding: 10px;
 }
 
 section {
   /* float: right; */
-  width: 76%;
+  width: 70%;
+  margin-left: 28%;
 }
 
-main{
-max-width: 1200px;
-margin: 200px  auto 0 auto;
-/* height: 1100px; */
-/* margin-top: 190px; */
-}
 
 footer {
   /* display: block; */
