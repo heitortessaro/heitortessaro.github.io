@@ -203,6 +203,7 @@ strong {
 #social-links img {
   height: 35px;
   width: auto;
+  border-radius: 50%;
 }
 
 #social-links ul {
@@ -214,7 +215,7 @@ strong {
 #social-links ul li{
   display: inline-block;
   vertical-align: middle;
-  padding: 0 7%;
+  padding: 0 2%;
 }
 
 aside p {
