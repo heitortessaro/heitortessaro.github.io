@@ -104,22 +104,47 @@ main{
   /* margin-top: 190px; */
   }
   
-
-aside {
-  display: block;
-  float: left;
-  position: absolute;
-  /* height: 100%;  */
-  max-width: 25%;
-  padding: 10px;
-}
+/* ------- SECTION ------ */
 
 section {
   /* float: right; */
   width: 70%;
   margin-left: 28%;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid rgb(246, 202, 71);
+  margin-bottom: 20px;
+  background-color:white;
 }
 
+
+h2 {
+  text-align: center;
+  font-size: 1.8em;
+  padding: 15px;
+  color: var(--indian-yellow);
+}
+
+/* h4 {
+  text-align: center;
+  font-size: 1.2em; 
+  color: var(--auburn);
+} */ 
+
+p {
+  padding-top: 28px;
+  padding-bottom: 28px;
+  text-align: justify;
+  line-height: 1.6;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+strong {
+  color: var(--auburn);
+}
+
+/* ------- FOOTER ------ */
 
 footer {
   /* display: block; */
@@ -135,32 +160,7 @@ footer {
   /* bottom: 0; */
 }
 
-/* 
-h2 {
-  text-align: center;
-  font-size: 1.8em;
-  padding: 15px;
-  color: var(--indian-yellow);
-}
 
-h4 {
-  text-align: center;
-  font-size: 1.2em; 
-  color: var(--auburn);
-} */
-
-/* p {
-  padding-top: 28px;
-  padding-bottom: 28px;
-  text-align: center;
-  line-height: 1.6;
-  margin-left: 10%;
-  margin-right: 10%;
-} */
-
-strong {
-  color: var(--auburn);
-}
 
 /* a {
   color: var(--deep-space-sparkle);
@@ -170,6 +170,15 @@ strong {
 } */
 
 /* -----ASIDE-------- */
+
+aside {
+  display: block;
+  float: left;
+  position: absolute;
+  /* height: 100%;  */
+  max-width: 25%;
+  padding: 10px;
+}
 
 #section-left {
   background-color: rgb(231, 231, 231);
@@ -184,6 +193,7 @@ strong {
 
 #profilePicture {
   border-radius: 50% 25%;
+  width: 90%;
   display: block;
   margin-left: auto;
   margin-right: auto;
