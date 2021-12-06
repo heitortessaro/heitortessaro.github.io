@@ -80,33 +80,6 @@ h1 {
   color: white;
 }
 
-/* .navigation,
-.contactLinks {
-  margin-left: 20%;
-  margin-right: 20%;
-}
-
-.navigation,
-.contactLinks,
-.habilities {
-  overflow: hidden;
-}
-
-.navigation a {
-  float: left;
-  display: block;
-  width: 25%;
-  text-align: center;
-  padding: 14px 16px;
-}
-
-.contactLinks a {
-  float: left;
-  display: block;
-  width: 25%;
-  padding: 10px;
-  text-align: center;
-} */
 
 main{
   max-width: 1200px;
@@ -166,6 +139,21 @@ strong {
 
 .listHabilities {
   text-align: center;
+}
+
+#projects {
+  padding: 5px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+#projects a {
+  text-decoration: none;
+  color: var(--auburn);
+}
+
+#projects a:hover {
+  font-weight: 600;
 }
 
 /* ------- FOOTER ------ */
@@ -259,26 +247,3 @@ aside p {
 
 
 
-
-/* #divHabilities {
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-} */
- 
-/* .listHabilities {
-  line-height: 25;
-  display: inline-block;
-  vertical-align: middle;
-} */
-
-/* .icon {
-  padding: 2px;
-  height: 1em;
-} */
-
-/* #projects {
-  padding: 5px;
-  text-align: center;
-  line-height: 1.6;
-} */
