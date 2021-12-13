@@ -37,12 +37,50 @@ main {
 input {
  font-size: 1.2em;
  border-radius: 5px;
- width: 60%;
+ width: 75%;
+}
+
+li {
+ padding: 5px 0px;
+ font-size: 1.05em;
 }
 
 button {
  font-size: 1.1em;
- margin: 0px 5px;
+ padding: 5px 7px;
+ margin: 0px 7px;
+ min-width: 40px;
+ border-radius: 10px;
+ cursor: pointer;
+}
+
+button:hover {
+ transform: scaleX(1.05) scaleY(1.15);
+ /* color: white; */
+}
+
+#criar-tarefa {
+ background-color: rgba(0, 0, 255, 0.637);
+}
+
+#remover-selecionado {
+ background-color: rgba(255, 0, 0, 0.781);
+ /* border: 1px solid black; */
+}
+
+#mover-cima,
+#mover-baixo {
+ background-color: rgba(255, 68, 0, 0.7);
+}
+
+#salvar-tarefas {
+ background-color: rgba(2, 156, 2, 0.637);
+}
+
+#remover-finalizados,
+#apaga-tudo {
+ background-color: rgba(0, 0, 0, 0.671);
+ color: white;
 }
 
 .selected {
