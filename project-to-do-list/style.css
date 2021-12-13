@@ -34,12 +34,27 @@ main {
  /* background-color: rgb(210, 105, 30, 0.3); */
 }
 
+input {
+ font-size: 1.2em;
+ border-radius: 5px;
+ width: 60%;
+}
+
+button {
+ font-size: 1.1em;
+ margin: 0px 5px;
+}
+
 .selected {
- background-color: chocolate;
+ color: chocolate;
+ font-weight: 600;
+ transform: translateX(10px);
 }
 
 .completed {
  text-decoration: line-through;
+ font-style: italic;
+ /* text-decoration: dotted; */
 }
 
 footer {
