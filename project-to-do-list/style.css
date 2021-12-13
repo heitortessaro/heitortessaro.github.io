@@ -38,6 +38,7 @@ input {
  font-size: 1.2em;
  border-radius: 5px;
  width: 75%;
+ max-width: 750px;
 }
 
 li {
