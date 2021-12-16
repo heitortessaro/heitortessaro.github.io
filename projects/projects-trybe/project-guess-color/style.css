@@ -5,7 +5,7 @@ body {
  padding: 50px;
  text-align: center;
  /* background-image properties: https://www.w3schools.com/cssref/pr_background-image.asp */
- background-image: url('/project-guess-color/images/rsz_david-pisnoy-46jud4zy1xa-unsplash.jpg');
+ background-image: url('/projects/projects-trybe/project-guess-color/images/rsz_david-pisnoy-46jud4zy1xa-unsplash.jpg');
  background-position: center;
  background-repeat: no-repeat; /* Do not repeat the image */
  background-size: cover; /* Resize the background image to cover the entire container */
