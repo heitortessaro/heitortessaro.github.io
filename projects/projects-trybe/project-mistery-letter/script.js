@@ -84,6 +84,14 @@ const fonts = [
  'Times New Roman',
  'Times',
  'serif',
+ 'Roboto',
+ 'Poppins',
+  'Permanent Marker',
+ 'Lexend Deca',
+ 'Kumbh Sans',
+ 'Karla',
+ 'Big Shoulders Display',
+ 'Amatic SC'
 ];
 
 const backgroundImages = [
@@ -96,7 +104,7 @@ const backgroundImages = [
  'pink-pattern.png',
 ];
 
-const fontWeight = ['300', '600', '900'];
+const fontWeight = ['400', '700', '900'];
 
 const textTransform = ['none', 'capitalize', 'lowercase', 'uppercase'];
 
