@@ -5,11 +5,11 @@ const footer = document.getElementsByTagName('footer')[0];
 
 // create elements
 const title = document.createElement('h1');
-title.innerText = 'Mistery Letter';
+title.innerText = 'Mysterious Letter';
 
 const inputText = document.createElement('input');
 inputText.id = 'carta-texto';
-inputText.placeholder = 'add your text here';
+inputText.placeholder = 'Add your text here';
 
 const btnsDiv = document.createElement('div');
 
@@ -138,7 +138,7 @@ function selectRandonRotation(max, min) {
 
 function counterWords() {
  const numberWords = outputText.childElementCount;
- wordCounter.innerText = `The letter has ${numberWords} words. This is the only tip you have. Now Try to discover the message.`;
+ wordCounter.innerText = `The letter has ${numberWords} words. This is the only tip you have. Now, try to discover the message.`;
 }
 
 function selectRandom(max) {
@@ -253,7 +253,7 @@ function misteryPresentation() {
  const textArray = tempText.split(' ');
  wordCounter.innerText = '';
  if (checkEmptyInput(tempText) || checkOnlySpaces(textArray)) {
-  outputText.innerText = 'Por favor, digite o conteúdo da carta.';
+  outputText.innerText = 'Please, enter the content of the letter.';
   return;
  }
  removeSpans();
