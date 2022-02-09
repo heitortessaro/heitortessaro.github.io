@@ -7,5 +7,3 @@ Para a conclusão do projeto foram utilizados:
 - Conhecimentos sobre JavaScript, CSS e HTML;
 - Funções assíncronas;
 - Testes unitários.
-
-Para acessar esse projeto utilize o link: [project shopping cart](https://heitortessaro.github.io/projects/projects-trybe/project-shopping-cart/index.html).
